@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars API</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    <!-- header start-->
+    
+    <header class="header">
+        <div class="container">
+            <div class="tabs">
+                <button id="people-tab" class="active-tab btn">People</button>
+                <button id="films-tab" class="btn" >Films</button>
+            </div>
+        </div>
+       
+       
+    </header>
+    <div class="container" >
+        <div class="loader" id="loader" style="display: none;"></div>
+    </div>
+        
+   
+    <div class="container">
+        
+         <main class="main-wrapper">
+
+      
+        <section class="show-list" id="list-container">
+        </section>
+        <section id="detail-container" class="detail-list" style="display: none;">
+            <!-- The details of the selected item will be displayed here -->
+           
+        </section>
+        <button id="back-button" class="btn" style="display: none;">Back</button>
+         </main>
+   
+    
+
+    </div>
+     <!-- footer -->
+   
+    <script src="script.js" defer></script>
+</body>
+</html>
